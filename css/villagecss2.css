@@ -59,6 +59,15 @@ body{
 	background-color: #34495e
 }
 
+/* ============================================================= Drop Button */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #34495E;
+}
+.navbar-default .navbar-toggle {
+	border-color: #E67E22;
+	background-color: rgb(230, 126, 34);
+}
+
 
 /*=============================================================== End Nav Styling   */
 
