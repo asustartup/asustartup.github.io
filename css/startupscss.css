@@ -25,7 +25,7 @@
 
 .navbar-right{
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .navbar-default .navbar-nav>li>a{   /* Right menu color */
@@ -69,9 +69,93 @@ h2{
  color: grey;
 }
 
+hr{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* ========================================================= Main Section Styling */
+
+.col-md-6 img{
+	max-width: 100%;
+}
+
+.btn{
+	margin-bottom: 15px;
+}
+
+
+
+ .j{
+	background-image: url('../images/justin.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.t{
+	background-image: url('../images/smile.png');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.n{
+	background-image: url('../images/nick.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.c{
+	background-image: url('../images/casey.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.a{
+	background-image: url('../images/adi.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.je{
+	background-image: url('../images/jorge.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+
 
 footer{
-	margin-top: 900px;          /*      Footer    */
+	margin-top: 900px;          /* ======================     Footer    */
 	bottom: 0;
 	width: 100%;
 	height: 150px;

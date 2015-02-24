@@ -9,18 +9,20 @@
 
     <title>ASU STARTUP VILLAGE</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="navbar-fixed-top.css" rel="stylesheet">
    <!--  <link rel="stylesheet" type="text/css" href="css/villagecss.css"> -->
     <link rel="stylesheet" type="text/css" href="css/peoplecss2.css">
     <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="smoothscroll.js"> </script>
 
   </head>
 
 
-<body>
+<body data-spy="scroll data-spy" data-target="navbar-collapse" data-offset=".50">
 
     <!-- Fixed navbar -->
     <!-- navbar -->
@@ -53,7 +55,6 @@
      <div class="about-title">
         <h1>Meet the Villagers!</h1>
          <span class=""><i class="fa fa-user fa-5x"></i><i class="fa fa-user fa-5x"></i><i class="fa fa-user fa-5x"></i></span> 
-        <!-- <img src="images/paperpeople.png"> -->
      </div>   
         <hr  class="featurette-divider">
 
@@ -340,7 +341,7 @@ weld.</p>
             </div>
           </div>
         </div>
-
+<!-- ============================================================================================= SHARE BOX + BACK TO TOP -->
     <div class="share_box">
       <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-4x"></i></a>
 
@@ -360,27 +361,6 @@ weld.</p>
 
 </body>
 
-<script type="text/javascript">
-  $("#back_to_top ul li a[href^='#']").on('click', function(e) {
-
-   // prevent default anchor click behavior
-   e.preventDefault();
-
-   // store hash
-   var hash = this.hash;
-
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 700, function(){
-
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
-
-});
-</script>
 
       <!-- Bootstrap core JavaScript
     ================================================== -->

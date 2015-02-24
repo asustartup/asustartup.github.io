@@ -6,12 +6,12 @@
 	border-color: #34495e;
 	margin-bottom: 0px;
 	width: 100%;
+	font-family: 'Lato', sans-serif;
 }
 
 .navbar-brand{
 	margin-top: 15px;
 	font-size: 35px;
-	font-family: 'Anton', sans-serif;
 }
 .navbar-brand img{
 	width: 138px;
@@ -27,7 +27,7 @@
 
 .navbar-right{
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .navbar-default .navbar-nav>li>a{   /* Right menu color */

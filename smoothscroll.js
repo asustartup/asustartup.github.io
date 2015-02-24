@@ -1,4 +1,4 @@
-$("#jumbotron ul li a[href^='#']").on('click', function(e) {
+$(".navbar-brand ul li a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();

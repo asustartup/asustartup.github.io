@@ -14,7 +14,6 @@ body{
 .navbar-brand{
 	margin-top: 15px;
 	font-size: 35px;
-	font-family: 'Anton', sans-serif;
 }
 .navbar-brand img{
 	width: 138px;
@@ -26,12 +25,13 @@ body{
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #c0392b
+	color: #c0392b;
 }
 
 .navbar-right{
 	margin-top: 15px;
 	font-size: 17px;
+	font-weight: 100;
 }
 
 .navbar-default .navbar-nav>li>a{   /* Right menu color */
@@ -42,12 +42,12 @@ body{
 .navbar-default .navbar-nav>li>a:hover{
 	color: #95a5a6;
 	border-top: 1px solid whitesmoke;
+	background-color: #34495e;
 }
 
 .navbar-default .navbar-toggle {  /* ================== Toggle Styling  */
 	margin-top: 22px;
 }
-
 
 .navbar-default .navbar-nav>.active>a,          /* Active Link Styling */     
  .navbar-default .navbar-nav>.active>a:hover,
@@ -133,6 +133,7 @@ body{
 	min-height: 400px;
 	margin-left: 48px;
 	margin-right: 48px;
+	border-top: 3px solid #e67e22;
 }
 
 .col-lg-3 i{
@@ -183,6 +184,7 @@ footer a:hover{
 	width:50px;
 	top:30%;
 	left:1%;
+	z-index: 
 }
 .share_box{
 	position:fixed;
