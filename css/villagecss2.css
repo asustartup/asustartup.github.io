@@ -8,6 +8,7 @@ body{
 	background-color: #29b742;
 	border-color: #34495e;
 	margin-bottom: 0px;
+	width: 100%;
 }
 
 .navbar-brand{
@@ -198,6 +199,9 @@ footer a:hover{
 }
 .share_box .fa{
 	margin-bottom: 15px;
+}
+.share_box i:hover{
+	color: #FFB310;
 }
 
 
