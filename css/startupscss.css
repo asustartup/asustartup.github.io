@@ -84,6 +84,44 @@ hr{
 	margin-bottom: 15px;
 }
 
+.idcard{
+	float: left;
+}
+
+.color_pop{
+	position:relative; top:0px; 
+	width:154px; 
+	height:154px; 
+	background:#34495e;
+	margin-right: 10px;
+	margin-left: 0px; 
+	opacity:0;
+	margin-top: 144px;
+	display: block;
+	-webkit-transition: opacity .5s linear;
+	-webkit-transition: margin-top .4s;
+}
+
+.idcard:hover .color_pop{
+	opacity:0.8;
+	margin-top: 0px;
+}
+
+.color_pop:hover p{
+	opacity:1;
+}
+
+.color_pop p{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 35%;
+	overflow: hidden;
+}
+
+
+
 
 
  .j{
@@ -95,6 +133,11 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	overflow: hidden;
+}
+
+.j:hover{
+	background-color: orange;
 }
 
 .t{
@@ -106,6 +149,8 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	margin-top: 10px;
+	overflow: hidden;
 }
 
 .n{
@@ -117,6 +162,7 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	overflow: hidden;
 }
 
 .c{
@@ -128,6 +174,7 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	overflow: hidden;
 }
 
 .a{
@@ -139,6 +186,7 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	overflow: hidden;
 }
 
 .je{
@@ -150,6 +198,7 @@ hr{
 	border: 3px solid #34495e; 
 	margin-right: 10px;
 	margin-left: 20px;
+	overflow: hidden;
 }
 
 
