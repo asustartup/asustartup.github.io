@@ -228,6 +228,9 @@ footer a{
 footer a:hover{
 	color: #1abc9c;
 }
+footer img{
+	width: 150px;
+}
 
 
 .text-muted{

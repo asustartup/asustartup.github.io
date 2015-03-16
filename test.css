@@ -1,10 +1,83 @@
 
+.navbar-default{
+	height: 170px;
+	margin-bottom: 15px;
+	background-color: #29b742;
+	border-color: #34495e;
+	margin-bottom: 0px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand{
+	margin-top: 15px;
+	font-size: 35px;
+}
+.navbar-brand img{
+	width: 138px;
+	height: 123px;
+}
+.navbar-default .navbar-brand{  /* left brand color */
+	color: #e74c3c;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #c0392b;
+}
+
+.navbar-right{
+	margin-top: 15px;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a{   /* Right menu color */
+	color: whitesmoke;
+	background-color: #34495e;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #95a5a6;
+	border-top: 1px solid whitesmoke;
+}
+
+
+.navbar-default .navbar-toggle {  /* ================== Toggle Styling  */
+	
+	margin-top: 22px;
+}
+
+
+.navbar-default .navbar-nav>.active>a,          /* Active Link Styling */     
+ .navbar-default .navbar-nav>.active>a:hover,
+ .navbar-default .navbar-nav>.active>a:focus{
+ 	background-color: #34495e;
+ 	border-bottom: 3px solid #e67e22;
+ 	color: whitesmoke;
+ }
+
+ .color{
+	background-color: #34495e
+}
+
+
+
+/* =========================================> End Nav Styling */
+
+
+.container_people{
+	padding-left: 75px;
+	padding-right: 75px;
+	display: block;
+	left: auto;
+	right: auto;
+}
+
 .card{
 	height: 500px;
 	width: 380px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-top: 100px solid #34495e;
-	margin-right: 0px;
+	margin-right: 60px;
 	margin-top: 10%;
 }
 

@@ -70,8 +70,10 @@ body{
 }
 
 
-/*=============================================================== End Nav Styling   */
+/*=============================================================== End Nav */
 
+
+/*=============================================================== Start Jumbotron Styling*/
 .container .jumbotron{
 	margin-top: 150px;
 }
@@ -133,7 +135,6 @@ body{
 	min-height: 400px;
 	margin-left: 48px;
 	margin-right: 48px;
-	border-top: 3px solid #e67e22;
 }
 
 .col-lg-3 i{
@@ -168,6 +169,10 @@ footer a{
 
 footer a:hover{
 	color: #1abc9c;
+}
+
+footer img{
+	width: 150px;
 }
 
 
