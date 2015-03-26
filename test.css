@@ -1,22 +1,36 @@
+body{
+	background-color: #ecf0f1
+}
 
 .navbar-default{
-	height: 170px;
+	height: 180px;
 	margin-bottom: 15px;
 	background-color: #29b742;
 	border-color: #34495e;
 	margin-bottom: 0px;
 	width: 100%;
-	font-family: 'Lato', sans-serif;
+
+}
+
+
+.navbar-header{
+	padding-top: 20px;
+	z-index: 2
+}
+
+.navbar-brand img{
+	width: 138px;
+	height: 123px;
+	margin-top: -24px;
 }
 
 .navbar-brand{
 	margin-top: 15px;
 	font-size: 35px;
+	height: 148px;
+	z-index: 2;
 }
-.navbar-brand img{
-	width: 138px;
-	height: 123px;
-}
+
 .navbar-default .navbar-brand{  /* left brand color */
 	color: #e74c3c;
 }
@@ -28,24 +42,24 @@
 .navbar-right{
 	margin-top: 15px;
 	font-size: 17px;
+	font-weight: 100;
 }
 
 .navbar-default .navbar-nav>li>a{   /* Right menu color */
 	color: whitesmoke;
 	background-color: #34495e;
+	z-index: 2
 }
 
 .navbar-default .navbar-nav>li>a:hover{
 	color: #95a5a6;
 	border-top: 1px solid whitesmoke;
+	background-color: #34495e;
 }
-
 
 .navbar-default .navbar-toggle {  /* ================== Toggle Styling  */
-	
 	margin-top: 22px;
 }
-
 
 .navbar-default .navbar-nav>.active>a,          /* Active Link Styling */     
  .navbar-default .navbar-nav>.active>a:hover,
@@ -54,15 +68,30 @@
  	border-bottom: 3px solid #e67e22;
  	color: whitesmoke;
  }
-
- .color{
+.color{
 	background-color: #34495e
 }
 
+/* ============================================================= Drop Button */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #34495E;
+}
+.navbar-default .navbar-toggle {
+	border-color: #E67E22;
+	background-color: rgb(230, 126, 34);
+}
 
 
-/* =========================================> End Nav Styling */
+/*=============================================================== End Nav */
 
+
+.about-title{
+	text-align: center;
+}
+
+.1{
+	padding-left: 150px;
+}
 
 .container_people{
 	padding-left: 75px;
@@ -74,7 +103,7 @@
 
 .card{
 	height: 500px;
-	width: 380px;
+	width: 330px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-top: 100px solid #34495e;
 	margin-right: 60px;
@@ -86,7 +115,7 @@
 	height:175px;
 	border-radius: 87px;
 	margin-top: -50px;
-	margin-left: 95px;
+	margin-left: 65px;
 	border: 6px solid white;
 }
 
@@ -102,18 +131,19 @@
 
 .card p{
 	color: grey;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .btn{
 	width: 80px;
+	height: 30px;
 	margin: 2px;
 }
 
 .bottom_bar{
 	width: 100%;
 	border-top: 1px dashed grey;
-	margin-top: 40px;
+	margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -130,6 +160,14 @@
 }
 button{
 	color: #34495e;
+}
+
+.stretch:hover{
+	width: 170px;
+}
+
+.stretch{
+	-webkit-transition:.5s;
 }
 
 .card_top{

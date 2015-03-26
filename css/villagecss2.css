@@ -3,21 +3,32 @@ body{
 }
 
 .navbar-default{
-	height: 85px;
+	height: 185px;
 	margin-bottom: 15px;
 	background-color: #29b742;
 	border-color: #34495e;
 	margin-bottom: 0px;
 	width: 100%;
+
+}
+
+
+.navbar-header{
+	padding-top: 20px;
+	z-index: 2
+}
+
+.navbar-brand img{
+	width: 138px;
+	height: 123px;
+	margin-top: -24px;
 }
 
 .navbar-brand{
 	margin-top: 15px;
 	font-size: 35px;
-}
-.navbar-brand img{
-	width: 138px;
-	height: 123px;
+	height: 148px;
+	z-index: 2;
 }
 
 .navbar-default .navbar-brand{  /* left brand color */
@@ -37,6 +48,7 @@ body{
 .navbar-default .navbar-nav>li>a{   /* Right menu color */
 	color: whitesmoke;
 	background-color: #34495e;
+	z-index: 2
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -119,6 +131,11 @@ body{
 	bottom: 15%;
 }
 
+.btn{
+	-webkit-transition: .3s linear;
+
+}
+
 .row{
 	margin-top: -150px;
 
@@ -189,7 +206,7 @@ footer img{
 	width:50px;
 	top:30%;
 	left:1%;
-	z-index: 
+	z-index: 1;
 }
 .share_box{
 	position:fixed;
@@ -200,15 +217,24 @@ footer img{
 	-webkit-border-radius: 3px;
     -moz-border-radius: 3px;
      border-radius: 3px;
+     z-index: 1;
 }
 .share_box a{
 	color: #e67e22;
+	z-index: 1
 }
 .share_box .fa{
 	margin-bottom: 15px;
+	z-index: 1
 }
 .share_box i:hover{
-	color: #FFB310;
+	color: #FFB310;	
+	z-index: 1
+}
+
+
+.egg{
+	opacity: 0;
 }
 
 
@@ -222,8 +248,10 @@ footer img{
 
 
 
-@media (max-width:350px){{
-		text-align: center;
+@media (max-width:350px){
+
+	{
+	text-align: center;
 	background-color: white;
 	margin-top: 5%;
 	border: 1px solid #bdc3c7;
@@ -232,5 +260,62 @@ footer img{
 	min-height: 400px;
 	margin-left: 15px;
 	margin-right: 15px;
+	}
 
-	}}
+	.share_box{
+	position:fixed;
+	width:50px;
+	bottom:30%;
+	left:1%;
+	z-index: 1;
+}
+.share_box{
+	position:fixed;
+	width:50px;
+	bottom:30%;
+	left:1%;
+	padding:15px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+     border-radius: 3px;
+     z-index: 1;
+}
+.share_box a{
+	color: #e67e22;
+	z-index: 1
+}
+.share_box .fa{
+	margin-bottom: 15px;
+	z-index: 1
+}
+.share_box i:hover{
+	color: #FFB310;	
+	z-index: 1
+}
+
+
+.egg{
+	opacity: 0;
+}
+
+}
+
+
+
+
+
+#back_to_top{
+	position:static;
+	width:50px;
+	bottom:3%;
+	right:3%;
+}
+
+#back_to_top .fa{
+	margin-bottom: 15px;
+}
+
+#back_to_top img{
+	width: 50px;
+	height: 60px;
+}
