@@ -296,6 +296,18 @@ a{
 	overflow: hidden;
 }
 
+.jon{
+	background-image: url('../images/jon.jpg');
+	background-size:100%;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 2px solid #34495e; 
+	margin-right: 10px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
 
 
 footer{
@@ -337,5 +349,8 @@ footer img{
 @media (max-width:350px){
 	.navbar-brand {
 		font-size: 30px;
+	}
+	.navbar-default{
+	height: 160px;
 	}
 }

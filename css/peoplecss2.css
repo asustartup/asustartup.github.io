@@ -1,5 +1,5 @@
 body{
-	background-color: #ecf0f1
+	background-color: white;
 }
 
 .navbar-default{
@@ -281,3 +281,11 @@ footer img{
 	}
 }
 
+@media (max-width:350px){
+	.navbar-brand {
+		font-size: 30px;
+	}
+	.navbar-default{
+	height: 160px;
+	}
+}
