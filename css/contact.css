@@ -9,6 +9,7 @@ body{
 	border-color: #34495e;
 	margin-bottom: 0px;
 	width: 100%;
+	border-radius: 	0px;
 
 }
 
@@ -107,7 +108,7 @@ h2{
 /* ===================================== Contact Box */
 
 .col-md-12{
-	height: 600px;
+	height: ;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	background-color: white;
 	margin-top: 40px;
@@ -125,11 +126,15 @@ h2{
 	padding-bottom: 5px;
 }
 form{
-	margin-left: 15px;
+	margin-left: 400px;
 	margin-top: 15px;
 }
 
-
+iframe{
+	margin-left: 200px;
+	margin-top: 25px;
+	margin-bottom: 	25px;
+}
 
 footer{
 	margin-top: 400px;          /*      Footer    */
