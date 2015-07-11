@@ -1,0 +1,16 @@
+.red{
+	background-color: #990033;
+	border-color: #990033;
+}
+.gold{
+	background-color: #ffb310;
+	border-color: #ffb310;
+}
+
+.navbar-default .navbar-brand{
+	font-family: 'Lato', sans-serif;
+}
+.img-circle{
+	width: 	239px;
+}
+
